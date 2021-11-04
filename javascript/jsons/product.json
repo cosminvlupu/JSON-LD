@@ -1,0 +1,20 @@
+{
+    "id": "http://example.org/cars/for-sale#tesla",
+    "type": "Offering",
+    "name": "Used Tesla Roadster",
+    "description": "Need to sell fast and furiously",
+    "hasBusinessFunction": "Sell",
+    "acceptedPaymentMethods": "Cash",
+    "hasPriceSpecification": {
+      "hasCurrencyValue": "85000",
+      "hasCurrency": "USD"
+    },
+    "includes": {
+      "type": [
+        "Individual",
+        "Vehicle"
+      ],
+      "name": "Tesla Roadster",
+      "page": "http://www.teslamotors.com/roadster"
+    }
+  }
