@@ -1,0 +1,27 @@
+{
+  "@context": "http://json-ld.org/contexts/place.jsonld",
+  "@id": "http://franz.com/place1",
+  "@graph": [
+    {
+      "@id": "http://franz.com/place1",
+      "@type": "http://franz.com/Place",
+      "name": "The Empire State Building",
+      "description": "The Empire State Building is a 102-story landmark in New York City.",
+      "image": "http://www.civil.usherbrooke.ca/cours/gci215a/empire-state-building.jpg",
+      "geo": {
+        "latitude": "40.75",
+        "longitude": "73.98"
+      }
+    },{
+      "@id": "http://franz.com/place2",
+      "@type": "http://franz.com/Place",
+      "name": "Casa Poporului",
+      "description": "Palatul Parlamentului este a doua cea mai mare clădire administrativă pentru uz civil ca suprafață din lume.",
+      "image": "https://ro.wikipedia.org/wiki/Palatul_Parlamentului#/media/Fi%C8%99ier:Avenida_de_la_Uni%C3%B3n,_Bucarest,_Ruman%C3%ADa,_2016-05-29,_DD_57.jpg",
+      "geo": {
+        "latitude": "44.42",
+        "longitude": "26.08"
+      }
+    }
+    ]
+  }
